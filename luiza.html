@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <meta charset="UTF-8">
+            <link rel="icon" href="imagens/solelua.jpg" type="image/ico">
+            <title>Sol e lua</title>
+        </head>
+
+        <body>
+        <header>
+            <img class="frango" src="imagens/solelua.jpg" alt="logo do site" height="100" width="100">
+            <nav>
+                <ul>
+                    <li><a href="index2.html">Site principal LENDAS INDIGENAS</a></li>
+                </ul>
+            </nav>
+            <p class="boi">espaco</p>
+            <p class="boi">espaco</p>
+            <p align="center"><strong>Desenvolvedor:Luiza</strong></p>
+
+        </header>
+
+
+        <div class="cursor"></div>
+
+        <script>
+            //identificar o elemento bolinha
+            var bolinha=document.querySelector('.cursor');
+
+            //capturar posição mouse na tela
+           document.addEventListener('mousemove',function(m){
+            
+                //atribuir posição X e Y como Position da bolinha
+                let xPos=m.pageX - 15;
+                let yPos=m.pageY - 15;
+
+             bolinha.style.left=xPos+'px';
+             bolinha.style.top=yPos+'px';
+           });
+
+        </script>
+
+        <h1 align=center>Lenda do Sol e da Lua</h1>
+
+        <figure>
+            <img src="imagens/solelua.jpg" alt="Desenho Artístico do Sol e da Lua." align="center" height="500" width="1000">
+            <figcaption>Fonte:<a href="https://ergorom.art/lenda-indigena-do-sol-e-da-lua/">Ergorom.art</a></figcaption>
+        </figure>
+
+        <p size="">Reza a lenda que, em meio à Floresta Amazônica, existiam duas tribos rivais: uma vivia no alto de uma montanha, e outra vivia no fundo do vale.</p>
+
+        <p>Embora a distância entre elas fosse pequena, não era permitido que houvesse contato entre os membros das duas tribos, dada sua grande rivalidade.</p>
+        <p>Certo dia, o filho do cacique da tribo do alto da montanha saiu para caçar em meio à floresta, e acabou encontrando uma bela índia da tribo do vale. Depois daquele encontro, surgiu entre os dois um grande amor, e todos os dias, os dois iam à floresta para que se encontrassem escondidos. Após um certo tempo, um grupo de indígenas da tribo da montanha encontrou os dois, e os levou para o alto do monte.</p>
+        <p>Uma das leis da tribo da montanha proibia o contato entre integrantes das duas tribos, com risco de pena de morte. Ao descobrir que seu filho estava envolvido no ocorrido, o cacique da tribo ficou desesperado, pois não queria que seu filho morresse. Desse modo, pediu ao pajé da tribo que preparasse uma poção para transformar o casal em astros do céu. Desse modo, seu filho o sua amada seriam punidos, mas não precisariam morrer para pagar a pena.</p>
+        <p>Ao beberem a poção mágica, logo foram transformados, sendo o rapaz em Sol e a moça na Lua. Viveram assim, eternamente longe da tribo, e é por isso que o Sol vive indo atrás de sua amada, a Lua, mas raramente se encontram. </p>
+        <p>Quando se encontram, se abraçam, fenômeno conhecido como <a href="https://mundoeducacao.uol.com.br/geografia/eclipse-lunar.htm">eclipse lunar</a>.</p>
+
+        <footer>
+            <p align="center"><strong>Desenvolvedor:Luiza</strong></p>
+            <img class="frango" src="imagens/solelua.jpg" alt="logo do site" height="100" width="100">
+            <p class="boi">espaco</p>
+            <p class="boi">espaco</p>
+                <p align="center"><strong>Fonte da Lenda:<a href="https://www.coisasdaroca.com/folclore/lenda-do-sol-e-da-lua.html">coisasdaroca.com</a></strong></p>
+        </footer>
+
+
+
+
+
+
+
+
+
+        </body>
+
+    </html>
+    
+    <!--DOCTYPE identifica o HTML5-->
+    <!--Head é a aba do browser-->
+    <!--Meta chareset nos permite usar caracteres especiais-->
+    <!--Title é o nome da aba do browser-->
+    <!--Body é o corpo do nosso cita aonde escrevemos tudo-->
+    <!--Header representa um grupo de suporte introdutório ou navegacional -->
+    <!--Nav representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página-->
+    <!--Ul representa uma lista de itens sem ordem rígida -->
+    <!--Li é usado para representar um item que faz parte de uma lista -->
+    <!--Div utilizada para estruturar o leiaute template de uma página.-->
+    <!--H1 é o titulo da pesquisa -->
+    <!--P é o paragrafo da pesquisa -->
+    <!--H2 é o subtitulo da pesquisa-->
+    <!-- A href é o link da fonte da imagem de onde pegamos se tiver mais curiosidade-->
+    <!--link rel define o relacionamento entre o arquivo em que o comando está escrito e o arquivo que é definido no caminho do href -->
+    <!--img src é as imagens de Vila velha, o Title mostra o que é a imagem e o Alt serve para dizer o que é a imagem caso ela nao apareça no html -->
+    <!--Figure é a tag que utilizamos para conseguir colocar imagens --> 
+    <!--Figcaption é a fonte de onde nos pegamos as imagens -->
+    <!--Footer é o rodape do site, conteúdo geral do documento ou do conteúdo de uma seção -->
+    <!--Class usado quando precisa modificar o estilo de um elemento-->
